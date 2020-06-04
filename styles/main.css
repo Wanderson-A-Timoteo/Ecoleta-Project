@@ -2,6 +2,10 @@ html {
             font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background: #f0f0f5;
+}
+
 /* BOX MODEL 
 Toda caixa tem altura, espaçamento, largura, preenchimento, bordas,
 cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display)
@@ -11,7 +15,7 @@ cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display
 
 #page-home {
     height: 100vh;
-    background-image: url("../icones/home-background.svg") no-repeat;
+    background-image: url('../icones/home-background.svg') no-repeat;
     background-position: 35vh bottom;
 
 }
@@ -29,8 +33,11 @@ cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display
     justify-content: space-between; /* Coloca um espaço entre os elementos */
 }
 
-.red {
-    background-color: red;
+#page-home header a span {
+    display: flex;
+    background-image: url('../icones/log-in.svg');
+    width: 20px;
+    height: 20px;
 
 }
 
