@@ -7,7 +7,23 @@ Toda caixa tem altura, espaçamento, largura, preenchimento, bordas,
 cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display)
 
 */
-header {
+
+
+#page-home {
+    height: 100vh;
+    background-image: url("../icones/home-background.svg") no-repeat;
+    background-position: 35vh bottom;
+
+}
+
+#page-home .content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+
+#page-home header {
     display: flex; /* Alinha todos os elementos dentro do display lado a lado*/
     align-items: center; /* Alinha todos os elementos dentro do display ao centro */
     justify-content: space-between; /* Coloca um espaço entre os elementos */
@@ -15,5 +31,7 @@ header {
 
 .red {
     background-color: red;
-    
+
 }
+
+
