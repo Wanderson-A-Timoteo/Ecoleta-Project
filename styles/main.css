@@ -1,0 +1,19 @@
+html {
+            font-family: 'Roboto', sans-serif;
+}
+
+/* BOX MODEL 
+Toda caixa tem altura, espaçamento, largura, preenchimento, bordas,
+cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display)
+
+*/
+header {
+    display: flex; /* Alinha todos os elementos dentro do display lado a lado*/
+    align-items: center; /* Alinha todos os elementos dentro do display ao centro */
+    justify-content: space-between; /* Coloca um espaço entre os elementos */
+}
+
+.red {
+    background-color: red;
+    
+}
