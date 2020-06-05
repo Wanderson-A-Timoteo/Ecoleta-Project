@@ -1,9 +1,18 @@
+
+:root {
+    --title-color: #322153;
+}
+
 html {
             font-family: 'Roboto', sans-serif;
 }
 
 body {
     background: #f0f0f5;
+}
+
+a{
+    text-decoration: nome;
 }
 
 /* BOX MODEL 
@@ -33,12 +42,28 @@ cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display
     justify-content: space-between; /* Coloca um espaço entre os elementos */
 }
 
-#page-home header a span {
+#page-home header a {
+    margin-top: 48px;
     display: flex;
+    color: #322153;
+    font-weight: 700;
+
+}
+
+
+#page-home header a span {
+    margin-right: 16px;
+    display: flex;
+
     background-image: url('../icones/log-in.svg');
     width: 20px;
     height: 20px;
 
 }
 
+
+#page-home main {
+    max-width: 560px;
+
+}
 
