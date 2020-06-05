@@ -15,6 +15,11 @@ a{
     text-decoration: nome;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
 /* BOX MODEL 
 Toda caixa tem altura, espaçamento, largura, preenchimento, bordas,
 cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display)
@@ -45,7 +50,7 @@ cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display
 #page-home header a {
     margin-top: 48px;
     display: flex;
-    color: #322153;
+    color: var(--title-color);
     font-weight: 700;
 
 }
@@ -65,5 +70,10 @@ cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display
 #page-home main {
     max-width: 560px;
 
+}
+
+#page-home main h1{
+    font-size: 54px;
+    color: var(--title-color);
 }
 
