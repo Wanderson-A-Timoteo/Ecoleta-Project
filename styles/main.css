@@ -1,6 +1,12 @@
+/* BOX MODEL 
+Toda caixa tem altura, espaçamento, largura, preenchimento, bordas,
+cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display)
+
+*/
+
 
 :root {
-    --title-color: #322153;
+    --title-color: #322153; /* Aplica essas caracteristicas a todo o conteudo do site */
 }
 
 html {
@@ -19,13 +25,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
     color: var(--title-color);
 }
-
-/* BOX MODEL 
-Toda caixa tem altura, espaçamento, largura, preenchimento, bordas,
-cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display)
-
-*/
-
 
 #page-home {
     height: 100vh;
