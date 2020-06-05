@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #page-home {
     height: 100vh;
-    background-image: url('../icones/home-background.svg') no-repeat;
+    background: url('../icones/home-background.svg') no-repeat;
     background-position: 35vh bottom;
 
 }
