@@ -39,7 +39,7 @@ cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display
     height: 100vh;
 
     background: url('../icones/home-background.svg') no-repeat;
-    background-position: 35vh bottom;
+    background-position: 35vw bottom; /* 35vw posiciona no eixo X e bottom coloca a img pra baixo  */
 
 }
 
