@@ -20,7 +20,7 @@ body {
 }
 
 a{
-    text-decoration: nome;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -171,7 +171,7 @@ cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display
         bottom: 48px;
 
         left: 50px;
-        transform: translateX(-50%);
+        transform: translateX(70%);
 
     }
     #page-home main {
