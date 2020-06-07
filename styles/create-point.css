@@ -1,8 +1,9 @@
 #page-create-point {
     width: 90%;
     max-width: 1100px;
-    margin: 0 auto;
 
+    /* Alinhamento da caixa pelo lado de fora */
+    margin: 0 auto;
 }
 
 #page-create-point header {
@@ -19,7 +20,6 @@
 
     display: flex;
     align-items: center;
-
 }
 
 #page-create-point header a span{
@@ -30,5 +30,104 @@
 
     width: 20px;
     height: 24px;
+}
+
+form {
+    background-color: white;
+
+    margin: 80px auto;/* Espaçamento para img header Ecoleta */
+
+
+    /* Preenchimento de cor de fundo branco do h1 Cadstro do ponto de coleta */
+    padding: 64px;
+
+    border-radius: 8px;
+
+    max-width: 730px;
+}
+
+form h1{
+    font-size: 36px;
+}
+
+form fieldset {
+    margin-top: 64px;
+    border: 0;
+}
+
+form legend {
+    margin-bottom: 40px;
 
 }
+
+form legend h2 {
+    font-size: 24px;
+
+}
+
+form .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+
+}
+
+form .field-group {
+    display: flex;
+}
+
+/* Definindo as caracteristicas das duas propriedades */
+form input, form select {
+    background-color: #f0f0f5;
+    
+    border: 0;
+    padding:  16px 24px;
+    font-size: 16px;
+
+    border-radius: 8px;
+
+    outline: none; 
+}
+
+form select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* Definindo as caracteristicas do primeiro .field = endereço e estado, segundo .field = Numero/complemento e cidade, neste caso aplicando margin para espaçamento apenas no segundo .field */
+form .field-group .field + .field {
+    margin-left: 24px;
+}
+
+form button {
+    width: 260px;
+    height: 56px;
+
+    background-color: var(--primary-color);
+    border-radius: 8px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+    border: 0;
+
+    margin-top: 40px;
+
+    transition: background-color 400ms; /* Aplicando a transição apenas na cor do botão */
+}
+
+form button:hover {
+    background-color: #2fb86e;
+
+}
+
+
+
