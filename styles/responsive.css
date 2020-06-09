@@ -36,3 +36,12 @@
     }
 
 }
+
+@media (max-height: 425px) {
+    #page-home {
+        background-position-x: 100px;
+        
+    }
+    
+   
+}
