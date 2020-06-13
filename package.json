@@ -1,0 +1,23 @@
+{
+  "name": "Ecoleta-Project",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido na NLW#01",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wanderson-A-Timoteo/Ecoleta-Project.git"
+  },
+  "keywords": [],
+  "author": "Wanderson de Almeida Timóteo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wanderson-A-Timoteo/Ecoleta-Project/issues"
+  },
+  "homepage": "https://github.com/Wanderson-A-Timoteo/Ecoleta-Project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
