@@ -52,6 +52,7 @@ function populateUFs() {
     .querySelector("select[name=uf]")
     .addEventListener("change", getCities)
 
+    
     // Ítens de coleta
     // Pegar todos os li's que forem selecionados
     const itemsToCollect = document.querySelectorAll(".items-grid li")
