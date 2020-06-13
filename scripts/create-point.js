@@ -54,13 +54,13 @@ function populateUFs() {
 
     // Ítens de coleta
     // Pegar todos os li's que forem selecionados
-    const itemsToCollect = document.querySelectorAll(".itens-grid li")
+    const itemsToCollect = document.querySelectorAll(".items-grid li")
 
     for (const item of itemsToCollect) {
         item.addEventListener ("click", handleSelectedItem)
     }
 
-    const collecteditems = document.querySelector("input[name=items]")
+    const collectedItems = document.querySelector("input[name=items]")
 
     let selectedItems = []
 
@@ -69,7 +69,7 @@ function populateUFs() {
         
         
         // Adicionar ou remover uma classe com JavaScript
-        itemLi.ClassList.selected
+        itemLi.ClassList.toggle("selected")
         
         const itemId = itemLi.dataset.id
 
@@ -94,6 +94,6 @@ function populateUFs() {
         }
 
         // atualizar o campo escondido com os itens selecionados
-        collecteditems.value = selectedItems
+        collectedItems.value = selectedItems
         
     }
