@@ -53,19 +53,47 @@ function populateUFs() {
     .addEventListener("change", getCities)
 
     // Ítens de coleta
-    // Pegar todos os li's
-    const itensToCollect = document.querySelectorAll(".itens-grid li")
+    // Pegar todos os li's que forem selecionados
+    const itemsToCollect = document.querySelectorAll(".itens-grid li")
 
-    for (const item of itensToCollect) {
+    for (const item of itemsToCollect) {
         item.addEventListener ("click", handleSelectedItem)
     }
+
+    const collecteditems = document.querySelector("input[name=items]")
+
+    let selectedItems = []
 
     function handleSelectedItem(event) {
         const itemLi = event.target
         
+        
         // Adicionar ou remover uma classe com JavaScript
-        itemLi.ClassList.toggle("selected")
+        itemLi.ClassList.selected
         
         const itemId = itemLi.dataset.id
+
+        // Verificar se tem itens selecionados, se sim pegar os itens
+        const alreadySelected = selectedItems.findIndex(item => {
+            const itemFound = item == itemId // Isso será true ou false
+            return itemFound
+        })
+
+        // se já estiver selecionado, tirar da seleção
+        if(alreadySelected >= 0) {
+            // tirar da seleção
+            const filteredItems = selectedItems.filter(item => {
+                const itemIsDifferent = item != itemId // false
+                return itemIsDifferent
+            })
+            selectedItems = filteredItems
+        } else {
+            // se não tiver selecionado, adicionar a seleção
+            selectedItems.push(itemId)
+
+        }
+
+        // atualizar o campo escondido com os itens selecionados
+        collecteditems.value = selectedItems
         
     }
