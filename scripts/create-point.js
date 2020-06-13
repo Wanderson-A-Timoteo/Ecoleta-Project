@@ -70,7 +70,7 @@ function populateUFs() {
         
         
         // Adicionar ou remover uma classe com JavaScript
-        itemLi.ClassList.toggle("selected")
+        itemLi.classList.toggle("selected")
         
         const itemId = itemLi.dataset.id
 
