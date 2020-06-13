@@ -51,3 +51,21 @@ function populateUFs() {
     document
     .querySelector("select[name=uf]")
     .addEventListener("change", getCities)
+
+    // Ítens de coleta
+    // Pegar todos os li's
+    const itensToCollect = document.querySelectorAll(".itens-grid li")
+
+    for (const item of itensToCollect) {
+        item.addEventListener ("click", handleSelectedItem)
+    }
+
+    function handleSelectedItem(event) {
+        const itemLi = event.target
+        
+        // Adicionar ou remover uma classe com JavaScript
+        itemLi.ClassList.toggle("selected")
+        
+        const itemId = itemLi.dataset.id
+        
+    }
