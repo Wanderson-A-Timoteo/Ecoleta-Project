@@ -12,7 +12,7 @@ server.get("/", (req, res) => {
     res.sendFile(__dirname + "/views/index.html")
 }) 
 
-server.get("/", (req, res) => {
+server.get("/create-point", (req, res) => {
     res.sendFile(__dirname + "/views/create-point.html")
 }) 
 
