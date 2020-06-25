@@ -2,12 +2,9 @@
 
 {% set pageId = "page-home" %}
 
-
-{% block styles %}
-            
+{% block styles %}      
     <link rel="stylesheet" href="/styles/home.css">
-    <link rel="stylesheet" href="/styles/modal.css">
-            
+    <link rel="stylesheet" href="/styles/modal.css">          
 {% endblock styles %}
 
 {% block content %}
@@ -31,15 +28,11 @@
 {% endblock content %} 
 
 {% block modal %}
-
     {% include "partials/modal.html" %}
-
 {% endblock modal %}
 
             
 {% block scripts %}
-
     <script src="/scripts/index.js"></script>
-
 {% endblock scripts %}
-        
+     
