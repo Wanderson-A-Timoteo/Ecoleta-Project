@@ -34,3 +34,22 @@ Toda caixa tem altura, espaçamento, largura, preenchimento, bordas,
 cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display)
 
 */
+
+
+/* Definindo as caracteristicas dos objetos em footer que é o rodapé do site. Devido os objetos em section e em aside
+estar flutuando um a esquerda e outro a direito, isso faz o footer ficar deslocado dentro do site, por isso precisamos
+limpar toda essa divisão que foi feita para ele ficar na possição correta */
+footer#rodape {
+    
+    clear: both; /* Define a limpeza dos dois lados para o footer, retirando ele do bloco e assim ele aparecer
+     na possição abaixo dos dois blocos asection e aside */
+    border-top: 1px solid #ccc5c5; /* Define uma linha no topo do footer, solida de cor cinza */
+
+   
+}
+
+/* Defindo as caracteristicas dos objetos dentro do footer que são (p) paragrafos */
+footer#rodape p{
+    margin-top: 15px;
+    text-align: center; /* Define que o texto (p) ficará centralizado no rodapé */
+}
