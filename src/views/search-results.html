@@ -17,9 +17,11 @@
     <main>
 
         {% if total > 0 %}
-        
+
             <h4>
-                <strong>{{ total }} pontos </strong> 
+                <strong>{{ total }}
+                    pontos
+                </strong>
                 encontrados
             </h4>
 
@@ -32,9 +34,11 @@
                         <h1>{{ place.name }}</h1>
                         <h3>{{ place.items }}</h3>
                         <p>
-                            {{ place.city }}, {{ place.state }}
+                            {{ place.city }},
+                            {{ place.state }}
                             <br>
-                            {{ place.address }}, {{ place.address2 }}
+                            {{ place.address }},
+                            {{ place.address2 }}
                             <br>
                             {{ place.address3 }}
                         </p>
@@ -46,7 +50,9 @@
 
         {% else %}
 
-            <h4> <strong>Nenhum</strong> local encontrado</h4>
+            <h4>
+                <strong>Nenhum</strong>
+                local encontrado</h4>
 
         {% endif %}
 

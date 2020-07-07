@@ -1,5 +1,6 @@
 :root {
-    --title-color: #322153; /* Aplica essas caracteristicas a todo o conteudo do site, com a var(--title-color) */
+    --title-color: #322153;
+    /* Aplica essas caracteristicas a todo o conteudo do site, com a var(--title-color) */
     --primary-color: #34cb79;
 
 }
@@ -12,19 +13,24 @@
 }
 
 html {
-            font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     background: #f0f0f5;
-    -wekkit-font-smoothing: antialiased; 
+    -wekkit-font-smoothing: antialiased;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Ubuntu', sans-serif;
     color: var(--title-color);
 }
@@ -40,16 +46,19 @@ cor, fundo, posicionamento, alinhamento, maneira que é vista pelo html (display
 estar flutuando um a esquerda e outro a direito, isso faz o footer ficar deslocado dentro do site, por isso precisamos
 limpar toda essa divisão que foi feita para ele ficar na possição correta */
 footer#rodape {
-    
-    clear: both; /* Define a limpeza dos dois lados para o footer, retirando ele do bloco e assim ele aparecer
-     na possição abaixo dos dois blocos asection e aside */
-    border-top: 1px solid #ccc5c5; /* Define uma linha no topo do footer, solida de cor cinza */
 
-   
+    clear: both;
+    /* Define a limpeza dos dois lados para o footer, retirando ele do bloco e assim ele aparecer
+     na possição abaixo dos dois blocos asection e aside */
+    border-top: 1px solid #ccc5c5;
+    /* Define uma linha no topo do footer, solida de cor cinza */
+
+
 }
 
 /* Defindo as caracteristicas dos objetos dentro do footer que são (p) paragrafos */
-footer#rodape p{
+footer#rodape p {
     margin-top: 15px;
-    text-align: center; /* Define que o texto (p) ficará centralizado no rodapé */
+    text-align: center;
+    /* Define que o texto (p) ficará centralizado no rodapé */
 }

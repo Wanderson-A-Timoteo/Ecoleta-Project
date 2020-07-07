@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-#page-create-point header a span{
+#page-create-point header a span {
     margin-right: 16px;
     background-image: url('../icones/arrow-left.svg');
 
@@ -35,7 +35,8 @@
 form {
     background-color: white;
 
-    margin: 80px auto;/* Espaçamento para img header Ecoleta */
+    margin: 80px auto;
+    /* Espaçamento para img header Ecoleta */
 
 
     /* Preenchimento de cor de fundo branco do h1 Cadstro do ponto de coleta */
@@ -46,7 +47,7 @@ form {
     max-width: 730px;
 }
 
-form h1{
+form h1 {
     font-size: 36px;
 }
 
@@ -89,19 +90,20 @@ form .field-group {
 }
 
 /* Definindo as caracteristicas das duas propriedades */
-form input, form select {
+form input,
+form select {
     background-color: #f0f0f5;
-    
+
     border: 0;
-    padding:  16px 24px;
+    padding: 16px 24px;
     font-size: 16px;
 
     border-radius: 8px;
 
-    outline: none; 
+    outline: none;
 }
 
-form select{
+form select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -113,7 +115,7 @@ form label {
 }
 
 /* Definindo as caracteristicas do primeiro .field = endereço e estado, segundo .field = Numero/complemento e cidade, neste caso aplicando margin para espaçamento apenas no segundo .field */
-form .field-group .field + .field {
+form .field-group .field+.field {
     margin-left: 24px;
 }
 
@@ -132,7 +134,8 @@ form button {
 
     margin-top: 40px;
 
-    transition: background-color 400ms; /* Aplicando a transição apenas na cor do botão */
+    transition: background-color 400ms;
+    /* Aplicando a transição apenas na cor do botão */
 }
 
 form button:hover {
@@ -143,7 +146,8 @@ form button:hover {
 .items-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px; /* Faz a separação dos itens do grid */
+    gap: 16px;
+    /* Faz a separação dos itens do grid */
 }
 
 .items-grid li {
@@ -185,6 +189,6 @@ form button:hover {
 
 .items-grid li img,
 .items-grid li span {
-    pointer-events: none; /* Remove o evento de click na imagem e no nome dos itens do grid */ 
+    pointer-events: none;
+    /* Remove o evento de click na imagem e no nome dos itens do grid */
 }
-

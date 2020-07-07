@@ -1,13 +1,15 @@
-
 @media (max-width: 900px) {
-    #page-home{
-        background-position-x: 70vw; /*Joga a imagem pro lado pra não encavalar quando a tela é menor que 900px */
-        
+    #page-home {
+        background-position-x: 70vw;
+        /*Joga a imagem pro lado pra não encavalar quando a tela é menor que 900px */
+
     }
+
     #page-home .content {
         align-items: center;
         text-align: center;
     }
+
     #page-home header a {
         position: absolute;
         bottom: 48px;
@@ -16,6 +18,7 @@
         transform: translateX(70%);
 
     }
+
     #page-home main {
         align-items: center;
 
@@ -34,7 +37,7 @@
 
     }
 
-    #page-create-point .field-group .field + .field {
+    #page-create-point .field-group .field+.field {
         margin-left: 0;
     }
 
@@ -57,8 +60,8 @@
 @media (max-height: 425px) {
     #page-home {
         background-position-x: 100px;
-        
+
     }
-    
-   
+
+
 }

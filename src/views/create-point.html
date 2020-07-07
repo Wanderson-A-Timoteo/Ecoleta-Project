@@ -6,21 +6,19 @@
     <title>Criar um ponto de coleta</title>
 {% endblock title %}
 
-
 {% block styles %}
     <link rel="stylesheet" href="/styles/create-point.css">
-    <link rel="stylesheet" href="/styles/modal.css">       
+    <link rel="stylesheet" href="/styles/modal.css">
 
 {% endblock styles %}
 
-        
 {% block content %}
 
     {% include "partials/page-header.html" %}
-    
-    <form action="/savepoint" method="POST" >
+
+    <form action="/savepoint" method="POST">
         <h1>Cadastro do ponto de coleta</h1>
-        
+
         <!-- Fieldset é uma coleção de campos que podem ser agrupados -->
         <fieldset>
             <legend>
@@ -30,47 +28,48 @@
             <div class="field-group">
                 <div class="field">
                     <label for="">Nome da entidade</label>
-                    <input type="text" name="name" required>
+                    <input type="text" name="name" required="required">
                 </div>
                 <div class="field">
                     <label for="">Imagem da Entidade</label>
-                    <input type="url" name="image" placeholder="https://" required>
+                    <input type="url" name="image" placeholder="https://" required="required">
                 </div>
             </div>
 
             <div class="field-group">
                 <div class="field">
                     <label for="address">Endereço</label>
-                    <input type="text" name="address" required>
+                    <input type="text" name="address" required="required">
                 </div>
             </div>
-
 
             <div class="field-group">
                 <div class="field">
                     <label for="address2">Número</label>
-                    <input type="text" name="address2" required>
+                    <input type="text" name="address2" required="required">
                 </div>
 
                 <div class="field">
                     <label for="address3">Bairro</label>
-                    <input type="text" name="address3" required>
+                    <input type="text" name="address3" required="required">
                 </div>
             </div>
 
             <div class="field-group">
                 <div class="field">
                     <label for="state">Estado</label>
-                    <select name="uf" required>
-                        <option value=""> Selecione o Estado </option>
+                    <select name="uf" required="required">
+                        <option value="">
+                            Selecione o Estado
+                        </option>
                     </select>
-                    
+
                     <input type="hidden" name="state">
                 </div>
 
                 <div class="field">
                     <label for="city">Cidade</label>
-                    <select name="city" disabled required>
+                    <select name="city" disabled="disabled" required="required">
                         <option value="">Selecione a Cidade</option>
                     </select>
                 </div>
@@ -86,12 +85,16 @@
             <div class="items-grid">
                 <li data-id="Lâmpadas">
                     <img src="/icones/lampadas.svg" alt="Lâmpadas">
-                    <span> Lâmpadas </span>
+                    <span>
+                        Lâmpadas
+                    </span>
                 </li>
 
                 <li data-id="Pilhas e Baterias">
                     <img src="/icones/baterias.svg" alt="Pilhas e Baterias">
-                    <span> Pilhas e Baterias </span>
+                    <span>
+                        Pilhas e Baterias
+                    </span>
                 </li>
 
                 <li data-id="Papéis e Papelão">
@@ -118,23 +121,20 @@
             <input type="hidden" name="items">
 
         </fieldset>
-        
+
         <button type="submit">Cadastrar ponto de coleta</button>
     </form>
 
 {% endblock content %}
 
-
 {% block modal %}
-    
+
     {% if saved %}
         {% include "partials/point-created.html" %}
     {% endif %}
 
 {% endblock modal %}
 
-              
 {% block scripts %}
     <script src="/scripts/create-point.js"></script>
 {% endblock scripts %}
-        
