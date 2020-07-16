@@ -46,11 +46,11 @@ Rápido e Alto desempenho.
 * **Wanderson A. Timóteo** - [LinkedIn](https://www.linkedin.com/in/wanderson-a-timoteo/)
 
 
-## Licença
+## Licença:
 
 * Licenciado sob a licença MIT - veja [LICENSE](LICENSE) para mais informações.
 
-## Agradecimentos
+## Agradecimentos:
 
 ![Preview](https://github.com/Wanderson-A-Timoteo/Ecoleta-Project/blob/master/public/icones/Rocketseat.png?raw=true)
 
