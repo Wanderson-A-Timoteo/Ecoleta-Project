@@ -52,6 +52,8 @@ Rápido e Alto desempenho.
 
 ## Agradecimentos
 
+![Preview](https://github.com/Wanderson-A-Timoteo/Ecoleta-Project/blob/master/public/icones/Rocketseat.png?raw=true)
+
 * Projeto construído durante a Next Level Week [Rocketseat](https://rocketseat.com.br/). 
 
 * Agradecimento ao [Mayk Brito](https://github.com/maykbrito) por compartilhar conteúdo relevante e com qualidade de ensino.
