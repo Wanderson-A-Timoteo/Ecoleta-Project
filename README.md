@@ -1,4 +1,8 @@
-# <p align="center">  &nbsp; Ecoleta &nbsp;   </p>
+<im align="center">
+
+![Preview](https://github.com/Wanderson-A-Timoteo/Ecoleta-Project/blob/master/public/icones/logo.svg?raw=true)
+
+</p>
 
 [![HitCount](https://hits.dwyl.com/https://github.com/Wanderson-A-Timoteo/Ecoleta-Project.svg)](https://github.com/Wanderson-A-Timoteo/Ecoleta-Project)
 
