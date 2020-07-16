@@ -8,7 +8,7 @@
 
 ## Pré-Vizualização do Projeto:
 
-![Preview](https://github.com/Wanderson-A-Timoteo/palpite-box/blob/master/public/interface.png?raw=true)
+![Preview](https://github.com/Wanderson-A-Timoteo/Ecoleta-Project/blob/master/public/icones/interface.jpg)
 
 
 ## Links do Projeto
