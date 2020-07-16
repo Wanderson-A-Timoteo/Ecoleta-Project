@@ -2,7 +2,7 @@
 
 ![Preview](https://github.com/Wanderson-A-Timoteo/Ecoleta-Project/blob/master/public/icones/logo.svg?raw=true)
 
-</p>
+</im>
 
 [![HitCount](https://hits.dwyl.com/https://github.com/Wanderson-A-Timoteo/Ecoleta-Project.svg)](https://github.com/Wanderson-A-Timoteo/Ecoleta-Project)
 
