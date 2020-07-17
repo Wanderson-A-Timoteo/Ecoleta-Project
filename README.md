@@ -7,7 +7,7 @@
 [![HitCount](https://hits.dwyl.com/https://github.com/Wanderson-A-Timoteo/Ecoleta-Project.svg)](https://github.com/Wanderson-A-Timoteo/Ecoleta-Project)
 
 <p align="justify">
-  Aplicação desenvolvida durante a Next Level Week - NLW01#, disponibilizada pela plataforma Rocketseat e lecionada por [Mayk Brito](https://github.com/maykbrito). O projeto tem como finalidade estabelecer uma conexão entre empresas e/ou entidades que coletam resíduos (orgânicos e inorgânicos) às pessoas e/ou entidades que necessitam constantemente descartar esses resíduos. Solucionando um grande problema recorrente que é o descarte inadequado do lixo, facilitando o processo de recliclagem e reutilização.
+  Aplicação desenvolvida durante a Next Level Week - NLW01#, disponibilizada pela plataforma Rocketseat e lecionada por Mayk Brito. O projeto tem como finalidade estabelecer uma conexão entre empresas e/ou entidades que coletam resíduos (orgânicos e inorgânicos) às pessoas e/ou entidades que necessitam constantemente descartar esses resíduos. Solucionando um grande problema recorrente que é o descarte inadequado do lixo, facilitando o processo de recliclagem e reutilização.
 </p> <br />
 
 ## Pré-Vizualização do Projeto:
