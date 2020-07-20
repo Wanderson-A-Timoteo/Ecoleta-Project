@@ -59,10 +59,7 @@ footer#rodape {
 /* Defindo as caracteristicas dos objetos dentro do footer que são (p) paragrafos */
 footer#rodape p {
     margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
     /* Define que o texto (p) ficará centralizado no rodapé */
-}
-
-footer #rodape a img {
-    width: 32px; height: 32px;
 }
