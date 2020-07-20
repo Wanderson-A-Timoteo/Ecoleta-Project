@@ -41,7 +41,7 @@ Rápido e Alto desempenho.
 
 ## Autor:
 
-* **Wanderson A. Timóteo** - [LinkedIn](https://www.linkedin.com/in/wanderson-a-timoteo/)
+* **Wanderson A. Timóteo** - [Wanderson](https://wanderson.ga)
 
 
 ## Licença:
